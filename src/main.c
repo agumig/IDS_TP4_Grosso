@@ -3,9 +3,6 @@
 
 int main (void)
 {
-    //gpio_t led_rojo = {.port = 1, .pin =6};
-    //gpio_t tecla = {.port = 1, .pin =7};
-
     gpio_t led_rojo = gpioCreate(1,6,true);
     gpio_t tecla = gpioCreate(1,7,false);
 

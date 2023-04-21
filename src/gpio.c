@@ -24,7 +24,11 @@ struct gpio_s{
 };
 #endif
 
-/**** private functions ****/
+/**** private function prototypes ****/
+/*!
+*   @brief  Aloca un objeto gpio estáticamente
+*   @return gpio_t dirección de memoria de la estructura alocada
+*/
 static gpio_t gpioAlocate(void);
 
 /**** private functions ****/
